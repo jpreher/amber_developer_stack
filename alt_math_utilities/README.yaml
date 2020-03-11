@@ -1,0 +1,13 @@
+purpose: This document contains information regarding third party packages and websites whence they came
+author: Eric Cousineau <eacousineau@gmail.com>
+
+third:
+-   name: Fast pow() With Adjustable Accuracy
+    author: Harrison Ainsworth
+    files:
+    -   path: ./third/powfast
+    refs:
+    -   url: http://www.hxa.name/articles/content/fast-pow-adjustable_hxa7241_2007.html
+        date: 2014-06-05T07:26-0500
+        sub:
+        -   url: http://www.hxa.name/articles/content/fast-pow-adjustable_hxa7241_2007.zip

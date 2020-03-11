@@ -1,0 +1,76 @@
+results:
+-   label: type-Release
+    type: Release
+    flags: 
+    pass: true
+    log: /tmp/eigen_utilities/log/type-Release.txt
+-   label: type-Release-extern
+    type: Release
+    flags: -DEIGEN_UTILITIES_TEST_EXTERN=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-Release-extern.txt
+-   label: type-Release-ndebug
+    type: Release
+    flags: -DEIGEN_UTILITIES_NDEBUG=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-Release-ndebug.txt
+-   label: type-MinSizeRel
+    type: MinSizeRel
+    flags: 
+    pass: true
+    log: /tmp/eigen_utilities/log/type-MinSizeRel.txt
+-   label: type-MinSizeRel-extern
+    type: MinSizeRel
+    flags: -DEIGEN_UTILITIES_TEST_EXTERN=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-MinSizeRel-extern.txt
+-   label: type-MinSizeRel-ndebug
+    type: MinSizeRel
+    flags: -DEIGEN_UTILITIES_NDEBUG=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-MinSizeRel-ndebug.txt
+-   label: type-RelWithDebInfo
+    type: RelWithDebInfo
+    flags: 
+    pass: true
+    log: /tmp/eigen_utilities/log/type-RelWithDebInfo.txt
+-   label: type-RelWithDebInfo-extern
+    type: RelWithDebInfo
+    flags: -DEIGEN_UTILITIES_TEST_EXTERN=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-RelWithDebInfo-extern.txt
+-   label: type-RelWithDebInfo-ndebug
+    type: RelWithDebInfo
+    flags: -DEIGEN_UTILITIES_NDEBUG=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-RelWithDebInfo-ndebug.txt
+-   label: type-Debug
+    type: Debug
+    flags: 
+    pass: true
+    log: /tmp/eigen_utilities/log/type-Debug.txt
+-   label: type-Debug-extern
+    type: Debug
+    flags: -DEIGEN_UTILITIES_TEST_EXTERN=ON
+    pass: false
+    log: /tmp/eigen_utilities/log/type-Debug-extern.txt
+-   label: type-Debug-ndebug
+    type: Debug
+    flags: -DEIGEN_UTILITIES_NDEBUG=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type-Debug-ndebug.txt
+-   label: type-
+    type: 
+    flags: 
+    pass: true
+    log: /tmp/eigen_utilities/log/type-.txt
+-   label: type--extern
+    type: 
+    flags: -DEIGEN_UTILITIES_TEST_EXTERN=ON
+    pass: false
+    log: /tmp/eigen_utilities/log/type--extern.txt
+-   label: type--ndebug
+    type: 
+    flags: -DEIGEN_UTILITIES_NDEBUG=ON
+    pass: true
+    log: /tmp/eigen_utilities/log/type--ndebug.txt

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>control_eigen_utilities</name>
+  <version>0.0.0</version>
+  <description>The control_eigen_utilities package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <maintainer email="jreher@caltech.edu">Jenna Reher</maintainer> 
+  <maintainer email="eacousineau@gmail.com">Eric Cousineau</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>control_utilities</build_depend>
+  <run_depend>control_utilities</run_depend>
+  <build_depend>eigen_utilities</build_depend>
+  <run_depend>eigen_utilities</run_depend>
+
+</package>

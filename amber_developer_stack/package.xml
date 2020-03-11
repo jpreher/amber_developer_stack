@@ -1,0 +1,14 @@
+<package>
+  <name>amber_developer_stack</name>
+  <version>0.1.0</version>
+  <description>
+    Common developer tools and libraries used in the AMBER Lab.
+  </description>
+  <maintainer email="jreher@caltech.edu">Jenna Reher</maintainer>
+  <maintainer email="eacousineau@gmail.com">Eric Cousineau</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>

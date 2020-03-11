@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>yaml_cpp_0_2_7</name>
+  <version>0.2.7</version>
+  <description>The yaml-cpp-0.2.7 package</description>
+  <maintainer email="jbeder@gmail.com">beder</maintainer>
+  <license>Boost Software License</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
