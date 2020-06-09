@@ -8,7 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   common_cmake
 )
 
-find_package(eigen3 REQUIRED)
+find_package(Eigen3 3.3.0 REQUIRED)
 find_package(yaml-cpp REQUIRED)
 
 message("")
